@@ -14,8 +14,33 @@
                 padding: 0px 20px;
             }
             
-            .header-top-menu{
-                border: 1px solid #6d6d6d;
+            .header-top-menu, .header-main-menu{
+                background: #454E5C;
+                border: 1px solid black;
+            }
+            .menu-top{
+                padding: 0;
+                margin: 0;
+                list-style: none;
+            }
+            .menu-top li{
+                list-style: none;
+                padding: 0px;
+                margin: 0px;
+                display: inline-block;
+            }
+            .menu-top li a{
+                display: block;
+                padding: 10px 15px;
+                text-decoration: none;
+                color: #fff;
+            }
+            .menu-top li a:hover{
+                background: #33363B;
+            }
+            .header-title{
+                color: #fff;
+                font-weight: bold;
             }
             
             .content-wrapper{
@@ -48,8 +73,12 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="row">
-                            <div class="col-md-12 header-top-menu">
-                                Header top menu
+                            <div class="header-top-menu">
+                                <ul class="menu-top">
+                                    <li><a href="">Home</a></li>
+                                    <li><a href="">About</a></li>
+                                    <li><a href="">Contact</a></li>
+                                </ul>
                             </div>
                             <div class="col-md-12 header-title">
                                 <h1>Header title</h1>
